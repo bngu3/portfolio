@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;  
+    background-color: #000;  
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+    color: #fff; 
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+    font-size: 4em;
+    margin: 0 0 20px 0;
+    letter-spacing: 1px;
+}
+
+.text {
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: #cccccc;
+}
+
+.portfolio-link {
+    display: block;             
+    width: 200px;              
+    margin: 60px auto 0 auto;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 0;             
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 12px;        
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.portfolio-link + .portfolio-link {
+    margin-top: 20px;          
+}
+
+.portfolio-link:hover {
+    background-color: #fff; 
+    color: #000;            
+    transform: scale(1.05);
+}
+
+
+
+.linkedin-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    padding: 10px 20px;
+    background-color: #0077B5;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    position: fixed; 
+    bottom: 20px;
+    right: 20px; 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.linkedin-button:hover {
+    background-color: #005983;
+    transform: scale(1.05);   
+}
+
+.linkedin-logo {
+    width: 20px;
+    height: 20px;
+}
+
+
