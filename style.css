@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 
-
 body {
     font-family: 'Montserrat', sans-serif;
     height: 100vh; 
@@ -56,32 +55,22 @@ h1 {
 }
 
 
-
 .linkedin-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px; 
-    padding: 10px 20px;
-    background-color: #0077B5;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 25px;
-    position: fixed; 
+    position: fixed;
     bottom: 20px;
-    right: 20px; 
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.linkedin-button:hover {
-    background-color: #005983;
-    transform: scale(1.05);   
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
 }
 
 .linkedin-logo {
-    width: 20px;
-    height: 20px;
+    width: 40px;  
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.linkedin-logo:hover {
+    transform: scale(1.1); 
 }
 
 
